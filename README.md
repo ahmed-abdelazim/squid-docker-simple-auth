@@ -2,7 +2,7 @@ squid-docker-simple-auth
 ========================
 
 A simple (and fragile) Dockerfile for launching an authenticated squid proxy.
-
+In this fork I edited the configuration to hide client ip
 The user must specify authentication credentials via the following environment variables:
 
 ```
