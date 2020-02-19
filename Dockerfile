@@ -1,4 +1,4 @@
-FROM ubuntu:18.10
+FROM ubuntu:14.04
 MAINTAINER Rob Haswell <me@robhaswell.co.uk>
 
 RUN apt-get -qqy update
