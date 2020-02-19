@@ -13,7 +13,7 @@ SQUID_PASSWORD=bar
 An example invocation would be:
 
 ```
-docker run -e SQUID_USERNAME=foo -e SQUID_PASSWORD=bar -p 3128:3128 robhaswell/squid-authenticated
+docker run -e SQUID_USERNAME=foo -e SQUID_PASSWORD=bar -p 3128:3128 abdelazim/squid-authenticated-hide-ip
 ```
 
 Details
