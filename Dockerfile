@@ -13,7 +13,7 @@ RUN echo "via off" >> /etc/squid3/squid.conf
 RUN echo "follow_x_forwarded_for deny all" >> /etc/squid3/squid.conf
 RUN echo "request_header_access X-Forwarded-For deny all" >> /etc/squid3/squid.conf
 RUN echo "acl datagro src 206.189.31.162" >> /etc/squid3/squid.conf
-RUN echo "http_access allow datagro auth" >> /etc/squid3/squid.conf
+RUN echo "http_access allow datagro" >> /etc/squid3/squid.conf
 
 RUN mkdir /usr/etc
 
